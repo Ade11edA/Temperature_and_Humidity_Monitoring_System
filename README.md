@@ -1,6 +1,12 @@
 # Temperature_and_Humidity_Monitoring_System
 This project is a monitoring system for temperature and humidity inside the labratory. The content below explains how each script functions and how to add another ESP-32 System.
 
+## Imports
+The following libraries on Arduino need to be installed:
++ Arduino ESP-32 Boards (Board manager)
++ Adafruit SHT31 Library
++ PubSubClient
+
 ## Step 1: Connecting the devices to the WiFi
 The the devices that will be used are the Raspberry Pi and the ESP-32. The ESP-32 cannot support certificates, that is why it will use a [Pre-Shared Key](https://help.wpi.edu/kb?btn=121&text=wpi%20psk&entity=articles&id=688).
 
